@@ -23,4 +23,4 @@ jobs:
           conda config --show
           printenv | sort
       - shell: bash -el {0}
-        run: mamba install jupyterlab
+        run: mamba install bioconda-utils
